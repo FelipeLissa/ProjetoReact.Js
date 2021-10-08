@@ -9,6 +9,7 @@ import Repeticao from "./components/basicos/Repeticao";
 import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/indireta/Super";
 import Input from "./components/Form/Input";
+// resolver problema com o import do react em Contador.
 import Contador from "./components/Contador/Contador";
 
 export default(props) => (
