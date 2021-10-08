@@ -1,0 +1,27 @@
+.Card {
+    height: 300px;
+    font-family:sans-serif;
+    font-size:small;
+    flex: 1;
+    border: 3px solid #000;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    min-width: 100px;
+    margin: 5px;
+}
+
+.Card .conteudo {
+    flex: 1;
+    background-color:lightgrey;
+    color:black;
+    padding: 15x 0px;
+}
+.Card .footer {
+    color:black;
+    padding: 10px 0px;
+    max-block-size: 30px;
+
+}
